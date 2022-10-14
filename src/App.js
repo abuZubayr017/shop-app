@@ -1,11 +1,18 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Shop from "./components/Shop";
+import { ToastContainer } from "react-toastify";
 
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
     
-    </div>
+    <>
+    <ToastContainer/>
+    <Header/>
+      <Shop/>
+    <Footer/>
+    </>
   );
 }
 
